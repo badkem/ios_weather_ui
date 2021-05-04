@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22A28617264135C800DBBC18 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A28616264135C800DBBC18 /* WeatherButton.swift */; };
 		22C47A37263FE8D200B4112B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C47A36263FE8D200B4112B /* AppDelegate.swift */; };
 		22C47A39263FE8D200B4112B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C47A38263FE8D200B4112B /* SceneDelegate.swift */; };
 		22C47A3B263FE8D200B4112B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C47A3A263FE8D200B4112B /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22A28616264135C800DBBC18 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 		22C47A33263FE8D200B4112B /* hello-word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-word.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C47A36263FE8D200B4112B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22C47A38263FE8D200B4112B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				22C47A41263FE8DA00B4112B /* LaunchScreen.storyboard */,
 				22C47A44263FE8DA00B4112B /* Info.plist */,
 				22C47A3E263FE8DA00B4112B /* Preview Content */,
+				22A28616264135C800DBBC18 /* WeatherButton.swift */,
 			);
 			path = "hello-word";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				22C47A37263FE8D200B4112B /* AppDelegate.swift in Sources */,
 				22C47A39263FE8D200B4112B /* SceneDelegate.swift in Sources */,
+				22A28617264135C800DBBC18 /* WeatherButton.swift in Sources */,
 				22C47A3B263FE8D200B4112B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,7 +449,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kem.hello-word";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kem.weather-ui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,7 +470,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kem.hello-word";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kem.weather-ui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
